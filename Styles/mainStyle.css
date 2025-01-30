@@ -1,0 +1,696 @@
+body {
+    background-color: #040405;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    gap: 112px;
+}
+
+p {
+    display: inline-block; 
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    height: 80px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#ConvexHeader {
+    width: 116px;
+    height: 24.5px;
+}
+
+#HeaderMenu {
+    display: flex;
+    align-items: center;
+    width: 250px;
+    height: 24px;
+    gap: 16px;
+}
+
+.headerMenuItems {
+    display: inline;
+}
+
+#ConnectWallet {
+    background-color: #00FF1A;
+    width: 167px;
+    height: 48px;
+    padding: 12px 24px;
+    border-radius: 24px;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    border: solid 1px #00FF1A;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 112px;
+}
+
+.welcomeToConvexFull {
+    display: flex;
+    gap: 151px;
+    margin-left: 200px;
+}
+
+.welcomeToConvex {
+    display: flex;
+    flex-direction: column;
+    width: 564px;
+    gap: 16px;
+}
+
+#welcomeToConvexText {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#welcomeToConvexParagraph {
+    display: inline;
+}
+
+#WelcomeToConvexDescShort {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 87.14px;
+    margin: 0;
+}
+
+#WelcomeToConvexDesc {
+    font-size: 20px;
+    line-height: 32px;
+    color: #7A7A7A;
+}
+
+#welcomeToConvexButtons {
+    width: 298px;
+    height: 48px;
+    gap: 16px;
+    display: flex;
+}
+
+#StakeNow {
+    width: 132px;
+    height: 48px;
+    padding: 12px 24px;
+    gap: 10px;
+    border-radius: 24px;
+    background-color: #00FF1A;
+    color: #000000;
+    border: solid 1px #00FF1A;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#HowItWorks {
+    width: 150px;
+    height: 48px;
+    padding: 12px 24px;
+    gap: 10px;
+    border-radius: 24px;
+    border: solid 1px #00FF1A;
+    background-color: #000000;
+    color: #ffffff;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+}
+
+#Sbob {
+    margin: 14px auto;
+}
+
+.someInfo {
+    display: flex;
+    align-items: center;
+    width: 815px;
+    height: 100px;
+    padding-top: 24px;
+    gap: 40px;
+    border-top: solid 1px #00FF1A;
+    margin-left: 200px;
+}
+
+
+.someInfoBlocks {
+    display: flex;
+    flex-direction: column;
+    height: 76px;
+    gap: 16px;
+}
+
+.someInfoWhiteText {
+    font-size: 32px;
+    line-height: 40px;
+    margin: 0;
+}
+
+.someInfoGrayText {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    color: #7A7A7A;
+    margin: 0;
+}
+
+#TotalRevenue {
+    width: 161px;
+}
+
+#TotalCRV {
+    width: 195px;
+}
+
+#CVXLocked {
+    width: 181px
+}
+
+#ConvexTVL {
+    width: 158px;
+}
+
+.liquidityProviderBox {
+    display: flex;
+    gap: 22px;
+    margin-left: 200px;
+}
+
+#liquidityProviderMain {
+    display: flex;
+    flex-direction: column;
+    width: 567px;
+    height: 484px;
+    gap: 16px;
+}
+
+#liquidityProviderSmall {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+#liquidityProvider {
+    display: inline-block;
+}
+
+#BoostedCurve {
+    display: inline-block;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 87.14px;
+    width: 567px;
+    height: 174px;
+    margin: 0;
+}
+
+#DepositCurve {
+    display: inline-block;
+    width: 546px;
+    height: 64px;
+    font-size: 20px;
+    line-height: 32px;
+    color: #7A7A7A;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+ul li::marker {
+    color: #00FF1A;
+    font-size: 50px;
+  }
+
+.Withdrawals {
+    font-size: 32px;
+    font-weight: 900;
+    line-height: 38.73px;
+    margin: 0 0 16px 0;
+}
+
+.boostIsPooled {
+    display: inline-block;
+    margin: 0;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7A7A7A;
+}
+
+.howItWorksBlock {
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    width: 1040px;
+    height: 357px;
+    gap: 32px;
+    margin-left: 200px;
+}
+
+#OurProcessBox {
+    display: flex;
+    gap: 12px;
+}
+
+#HowItWorksText {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 87.14px;
+    margin: 0;
+    width: 465px;
+    height: 87px;
+}
+
+#RegisterMainBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 37px;
+}
+
+#RegisterPhoto {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 863px;
+    height: 56px;
+}
+
+#RegisterDescBox {
+    display: flex;
+    gap: 10px;
+}
+
+.registerbox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+}
+
+.register {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29.05px;
+    margin: 0;
+}
+
+.registerDesc {
+    text-align: center;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0;
+    color: #7A7A7A;
+}
+
+.CRVBox {
+    display: flex;
+    align-items: center;
+    width: 1,040px;
+    height: 643px;
+    margin-left: 200px;
+    gap: 22px;
+}
+
+#CRVMainBox {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+#CRVStakersBox {
+    display: flex;
+    gap: 12px;
+}
+
+#PutYourCRV {
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 87.14px;
+    margin: 0;
+    width: 509px;
+    height: 174px;
+}
+
+
+#StakeAndEarn {
+    font-size: 20px;;
+    color: #7A7A7A;
+    width: 509px;
+    height: 64px;
+    margin: 0;
+}
+
+#DepositYourCurveMainBox {
+    width: 509px;
+    height: 333px;
+}
+
+
+.DepositYourCurveSmallBox {
+    width: 509px;
+    height: 111px;
+    padding: 0px 16px 24px 16px;
+    gap: 8px;
+    border-left: solid 2px #7A7A7A;
+}
+
+#FirstDepositBox {
+    border-left: solid 2px #00FF1A;
+}
+
+.DepositYourCurve {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 28px;
+    margin: 0;
+}
+
+.LPTokens {
+    color: #7A7A7A;
+    margin: 8px 90px 27px 0;
+}
+
+.testimonialsBoxMain {
+    display: flex;
+    width: 1,040px;
+    height: 729px;
+    margin-left: 200px;
+    gap: 24px;
+}
+
+#TestimonialsBoxContent {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    height: 729px;
+    gap: 24px;
+}
+
+#TestimonialsBoxContentUper {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    height: 452px;
+    gap: 12px;
+}
+
+#TestimonialsBox {
+    display: flex; 
+    align-items: center;
+    width: 200px;
+    height: 24px;
+    gap: 12px;
+}
+
+#Testimonials {
+    display: inline-block;
+    margin: 0;
+}
+
+#ReviewBoxMain {
+    display: flex;
+    flex-direction: column;
+    height: 416px;
+    padding: 24px 32px;
+    background-color: #1C1C20;
+}
+
+#ReviewBoxMainInside {
+    display: flex;
+    width: 560px;
+    height: 328px;
+    gap: 16px;
+}
+
+#AccPhoto {
+    margin: 0 0 auto 0;
+}
+
+#ReviewBoxSmall {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    height: 328px;
+}
+
+#TheReview {
+    display: flex;
+    flex-direction: column;
+    width: 440px;
+    gap: 12px;
+}
+
+#TheReviewTextBox {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#ReviewerInfo {
+    display: flex;
+    gap: 13px;
+}
+
+#NewYork {
+    font-size: 14px;
+    color: #7A7A7A;
+}
+
+#Amazing {
+font-size: 20px;
+font-weight: 900;
+line-height: 24.2px;
+}
+
+#Pellentesque {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29.92px;
+    letter-spacing: 0.035em;
+    color: #B7B7B7;
+    width: 440px;
+    height: 180px;
+}
+
+span {
+    color: #00FF1A;
+    font-weight: 600;
+}
+
+#QuoteUp {
+    width: 32px;
+    height: 32px;
+}
+
+#QuoteDown {
+    width: 32px;
+    height: 32px;
+    margin-right: 0;
+    margin-left: auto;
+}
+
+#Buttons {
+    display: flex;
+    width: 96px;
+    height: 40px;
+    gap: 16px;
+}
+
+#TestimonialsBoxContentLower {
+    display: flex;
+    flex-direction: column;
+    width: 624px;
+    height: 253px;
+    gap: 12px;
+}
+
+#SupportBoxMain {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+#SupportBox {
+    display: flex;
+    width: 165px;
+    height: 24px;
+    gap: 12px;
+}
+
+#SatisfactionBoxMain {
+    display: flex;
+    width: 624px;
+    height: 217px;
+    background-color: #1C1C20;
+}
+
+#VectorBad {
+    width: 91px;
+}
+
+#SatisfactionBoxInside {
+    display: flex;
+    flex-direction: column;
+    width: 560px;
+    height: 153px;
+    gap: 12px;
+    margin: 32px;
+}
+
+#Customers {
+    font-size: 24px;
+    font-weight: 900;
+    line-height: 29.05px;
+}
+
+#Questions {
+    font-size: 22px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29.92px;
+    letter-spacing: 0.035em;
+    color: #B7B7B7;
+}
+
+#PhoneBox {
+    display: flex;
+    align-items: center;
+    width: 256px;
+    height: 40px;
+    gap: 12px;
+}
+
+#PhoneNumber {
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 24.2px;
+}
+
+#ContactUsBoxMainBig {
+    display: flex;
+    flex-direction: column;
+    width: 392px;
+    height: 681px;
+    padding: 24px 32px;
+    gap: 10px;
+    background-color: #1C1C20;
+}
+
+#ContactUsBoxMaiSmall {
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 539px;
+    gap: 24px;
+    margin: 95px 32px;
+}
+
+#TestisBoxAgain {
+    display: flex;
+    width: 328px;
+    height: 24px;
+    gap: 12px;
+}
+
+#LeaveMessage {
+    font-size: 20px;
+    line-height: 24px;
+}
+
+#Form {
+    display: flex;
+    flex-direction: column;
+    width: 328px;
+    height: 371px;
+    gap: 24px;
+}
+
+.FormInputs {
+    box-sizing: border-box;
+    width: 328px;
+    height: 48px;
+    gap: 10px;
+    border-radius: 4px;
+    background-color: #1C1C20;
+    border: solid 1px #565656;
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding-left: 16px;
+}
+
+#SubmitButton {
+    width: 328px;
+    height: 48px;
+    padding: 12px 16px;
+    gap: 24px;
+    background-color: #00FF1A;
+    border-radius: 4px;
+    border: solid 1px #00FF1A;
+}
+
+#FormInputDesc {
+    height: 155px;
+
+}
+
+footer {
+    display: flex;
+    width: 1,440px;
+    height: 224px;
+    border-top: solid 1px #00FF1A;
+    justify-content: space-between;
+}
+
+
+#ConvexFooter {
+    width: 116px;
+    height: 24.5px;
+    margin-left: 200px;
+    margin-top: 40px;
+}
+
+.footerMenu {
+    display: flex;
+    flex-direction: column;
+    height: 144px;
+    gap: 16px;
+    margin: 40px;
+}
+
+.footerMenuButtons {
+   color: #7A7A7A;
+}
+
+.footerMenuButtons:hover {
+    color: white;
+}
+
+#FollowUs {
+    display: flex;
+    flex-direction: column;
+    width: 104px;
+    height: 64px;
+    gap: 16px;
+    margin-right: 200px;
+    margin-top: 40px;
+}
